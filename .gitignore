@@ -1,0 +1,29 @@
+# Xcode
+#
+# gitignore template for Xcode projects
+#
+# Reference: https://github.com/github/gitignore/blob/main/Swift.gitignore
+
+# Build artifacts
+build/
+DerivedData/
+
+# User settings and personal files
+*.mode1v3
+*.mode2v3
+*.nib
+*.xcuserstate
+xcuserdata/
+
+# Package manager
+.swiftpm/
+.build/
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Large Video Assets
+VideoEditor/*.mp4
+VideoEditor/*.mov
